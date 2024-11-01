@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+    <family code="2152" desc="Lottery Game" studio="interactive" organizationName="Interactive">
+        <!-- -  For spot supported games: spots are colon separated string like 1:2:3:4:5.Otherwise left blank -->
+        <game name="Juicy Loot WLA" version="1.0.14" gameengineversion="2" gamelogicversion="1.0"
+              number="0"
+              jackpotid=""
+              gametype="L"
+              loadprevstate="Y"
+              numberGenerator="RNG"
+              betMultipliers="10,20,50,100,200,300,500,1000,2000"
+              spots=""
+              productId="1"
+              gamegroup="eGames"
+              languages="en,en_US,de_BE,fr_BE,nl_BE,nb_NO,pl_PL"
+              skbPlatformVersion="1.4.0"
+              stateful="N" 
+	          merchandisePrize="N">
+            <!-- ZER -->
+            <!--<paymodel modelid="300-2152-099"  revealId="2152" revealVersionId="2152"
+                      confidentlevelpct="95" maxmainbetwin="0" maxsidebetwin="0"
+                      mincoins="0" cointhreshold="0"
+                      name="Juicy Loot WLA : 300-2152-099"
+                      hibethold="35.00" lobethold="31.00"
+                      hibetsd="3.641" lobetsd="3.641" fixedminmax="Y" maxcoins="500"/>
+
+            <paymodelConfig modelid="300-2152-099" clienttype="HTML" configcode="IXML"/>
+            <paymodelConfig modelid="300-2152-099" clienttype="HTML" configcode="PHLP"/>    -->
+
+            <!-- LNB -->
+            <paymodel modelid="300-2152-001"  revealId="2152" revealVersionId="2152"
+                      confidentlevelpct="95" maxmainbetwin="0" maxsidebetwin="0"
+                      mincoins="0" cointhreshold="0"
+                      name="Juicy Loot WLA : 300-2152-001"
+                      hibethold="34.65" lobethold="26.31"
+                      hibetsd="3.641" lobetsd="3.641" fixedminmax="Y" maxcoins="500"/>
+
+            <paymodelConfig modelid="300-2152-001" clienttype="HTML" configcode="IXML"/>
+            <paymodelConfig modelid="300-2152-001" clienttype="HTML" configcode="PHLP"/>
+
+            <!-- NT -->
+            <paymodel modelid="300-2152-002"  revealId="2152" revealVersionId="2152"
+                      confidentlevelpct="95" maxmainbetwin="0" maxsidebetwin="0"
+                      mincoins="0" cointhreshold="0"
+                      name="Juicy Loot WLA : 300-2152-002"
+                      hibethold="35.00" lobethold="35.00"
+                      hibetsd="3.641" lobetsd="3.641" fixedminmax="Y" maxcoins="500"/>
+
+            <paymodelConfig modelid="300-2152-002" clienttype="HTML" configcode="IXML"/>
+            <paymodelConfig modelid="300-2152-002" clienttype="HTML" configcode="PHLP"/>
+
+            <!-- RGS -->
+            <!--<paymodel modelid="300-2152-003"  revealId="2152" revealVersionId="2152"
+                      confidentlevelpct="95" maxmainbetwin="0" maxsidebetwin="0"
+                      mincoins="0" cointhreshold="0"
+                      name="Juicy Loot WLA : 300-2152-003"
+                      hibethold="35.00" lobethold="35.00"
+                      hibetsd="3.641" lobetsd="3.641" fixedminmax="Y" maxcoins="500"/>
+
+            <paymodelConfig modelid="300-2152-003" clienttype="HTML" configcode="IXML"/>
+            <paymodelConfig modelid="300-2152-003" clienttype="HTML" configcode="PHLP"/>-->
+
+            <!-- PLT -->
+            <paymodel modelid="300-2152-004"  revealId="2152" revealVersionId="2152"
+                      confidentlevelpct="95" maxmainbetwin="0" maxsidebetwin="0"
+                      mincoins="0" cointhreshold="0"
+                      name="Juicy Loot WLA : 300-2152-004"
+                      hibethold="30.00" lobethold="25.25"
+                      hibetsd="3.641" lobetsd="3.641" fixedminmax="Y" maxcoins="500"/>
+
+            <paymodelConfig modelid="300-2152-004" clienttype="HTML" configcode="IXML"/>
+            <paymodelConfig modelid="300-2152-004" clienttype="HTML" configcode="PHLP"/>
+
+            <!-- GA -->
+            <paymodel modelid="300-2152-005"  revealId="4290" revealVersionId="4290"
+                      confidentlevelpct="95" maxmainbetwin="0" maxsidebetwin="0"
+                      mincoins="0" cointhreshold="0"
+                      name="Juicy Loot WLA : 300-2152-005"
+                      hibethold="30.00" lobethold="25.25"
+                      hibetsd="3.641" lobetsd="3.641" fixedminmax="Y" maxcoins="500"/>
+
+            <paymodelConfig modelid="300-2152-005" clienttype="HTML" configcode="IXML"/>
+            <paymodelConfig modelid="300-2152-005" clienttype="HTML" configcode="PHLP"/>
+
+            <!-- RI -->
+            <paymodel modelid="300-2152-006"  revealId="4290" revealVersionId="4284"
+                      confidentlevelpct="95" maxmainbetwin="0" maxsidebetwin="0"
+                      mincoins="0" cointhreshold="0"
+                      name="Juicy Loot WLA : 300-2152-006"
+                      hibethold="15.00" lobethold="15.00"
+                      hibetsd="3.641" lobetsd="3.641" fixedminmax="Y" maxcoins="500"/>
+
+            <paymodelConfig modelid="300-2152-006" clienttype="HTML" configcode="IXML"/>
+            <paymodelConfig modelid="300-2152-006" clienttype="HTML" configcode="PHLP"/>
+
+            <denom currencycode="EUR" amount="0.01"/>
+            <denom currencycode="NOK" amount="0.01"/>
+            <denom currencycode="PLN" amount="0.01,0.05"/>
+            <denom currencycode="USD" amount="0.01,0.02"/>
+        </game>
+    </family>
